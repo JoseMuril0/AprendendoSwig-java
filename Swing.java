@@ -1,12 +1,13 @@
 import jutil.*;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 /*
     Aqui é o main da janela;
 */
 class Swing {
     public static void main(String[] args) throws Exception {
-        JFrame form1 = new JFrame("Policia DPH");
-
+        JFrame form1 = new JFrame();
+        form1.setTitle("Policia DPH - Treinamentos");
         form1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
         form1.setSize(400, 300);
         form1.setVisible(true);
@@ -18,6 +19,12 @@ class Swing {
 /*
     Importação do OBJ que sera a janela e nomeada; 
     JFrame form1 = new JFrame("Form 1");
+*/
+
+/*
+    Metodo do titulo da janela (mesmo resultado se passar o string como
+                                argumento na instacia da janela)
+    form1.setTitle("Policia DPH - Treinamentos");
 */
 
 /*
