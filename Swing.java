@@ -12,6 +12,8 @@ class Swing {
         form1.setSize(400, 300);
 
         JLabel label1 = new JLabel("Policia DPH");
+        label1.setHorizontalAlignment(JLabel.CENTER);
+        label1.setVerticalAlignment(JLabel.TOP);
 
         form1.add(label1);
         form1.setVisible(true);
@@ -46,6 +48,12 @@ class Swing {
 
     Metodo que adciona um componente a janela; 
     form1.add(label1);
+
+    Metodo para definir o aliamento horizontal do label1(Usando uma constante nesse caso);
+    label1.setHorizontalAlignment(JLabel.CENTER);
+
+    Metodo para defenor o aliamento vertical do label1(Usando uma constante nesse caso);
+    label1.setVerticalAlignment(JLabel.TOP);
 */
 /*
     Metodo para definir a janela como visivel;
