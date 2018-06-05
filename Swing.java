@@ -67,8 +67,12 @@ class Swing {
     label1.setVerticalAlignment(JLabel.TOP);
 */
 /*
-    FlowLayout para podemos usar add sem sobre por os labels
+    SetLayout recebe o layout para podemos usar add sem sobre por os labels
     form1.setLayout(new FlowLayout());
+
+    Instancia do GridLayout que outra opção de como mostrar os layout;
+    Instancia (linha, coluna);
+    GridLayout tabela = new GridLayout(1, 2);
 */
 /*
     Metodo para definir a janela como visivel;
