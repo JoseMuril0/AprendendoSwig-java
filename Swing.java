@@ -10,6 +10,10 @@ class Swing {
         form1.setTitle("Policia DPH - Treinamentos");
         form1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
         form1.setSize(400, 300);
+
+        JLabel label1 = new JLabel("Policia DPH");
+
+        form1.add(label1);
         form1.setVisible(true);
     }
 }
@@ -34,6 +38,14 @@ class Swing {
 /*
     Metodo que define o tamanho da janela;
     form1.setSize(400, 300);
+*/
+
+/*
+    Criando um label momento de instacia;
+    JLabel label1 = new JLabel("Policia DPH");
+
+    Metodo que adciona um componente a janela; 
+    form1.add(label1);
 */
 /*
     Metodo para definir a janela como visivel;
