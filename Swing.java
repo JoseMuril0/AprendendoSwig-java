@@ -1,6 +1,9 @@
 import jutil.*;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+
+import java.awt.FlowLayout;
+
 /*
     Aqui é o main da janela;
 */
@@ -10,12 +13,17 @@ class Swing {
         form1.setTitle("Policia DPH - Treinamentos");
         form1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
         form1.setSize(400, 300);
+        /* Implementação na janela */
 
         JLabel label1 = new JLabel("Policia DPH");
-        label1.setHorizontalAlignment(JLabel.CENTER);
-        label1.setVerticalAlignment(JLabel.TOP);
+        JLabel label2 = new JLabel("Treinamentos");
+        //label1.setHorizontalAlignment(JLabel.CENTER);
+        //label1.setVerticalAlignment(JLabel.CENTER);
 
+        /* Final de implementação na janela */
+        form1.setLayout(new FlowLayout());
         form1.add(label1);
+        form1.add(label2);
         form1.setVisible(true);
     }
 }
