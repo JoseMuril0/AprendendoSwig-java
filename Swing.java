@@ -3,6 +3,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 import java.awt.FlowLayout;
+import java.awt.GridLayout;
 
 /*
     Aqui é o main da janela;
@@ -17,11 +18,13 @@ class Swing {
 
         JLabel label1 = new JLabel("Policia DPH");
         JLabel label2 = new JLabel("Treinamentos");
-        //label1.setHorizontalAlignment(JLabel.CENTER);
-        //label1.setVerticalAlignment(JLabel.CENTER);
+
+        label1.setHorizontalAlignment(JLabel.CENTER);
+        label2.setHorizontalAlignment(JLabel.CENTER);        
 
         /* Final de implementação na janela */
-        form1.setLayout(new FlowLayout());
+        GridLayout tabela = new GridLayout(1, 2);
+        form1.setLayout(tabela);
         form1.add(label1);
         form1.add(label2);
         form1.setVisible(true);
@@ -62,6 +65,10 @@ class Swing {
 
     Metodo para defenor o aliamento vertical do label1(Usando uma constante nesse caso);
     label1.setVerticalAlignment(JLabel.TOP);
+*/
+/*
+    FlowLayout para podemos usar add sem sobre por os labels
+    form1.setLayout(new FlowLayout());
 */
 /*
     Metodo para definir a janela como visivel;
