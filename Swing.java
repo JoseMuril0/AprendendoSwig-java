@@ -23,7 +23,7 @@ class Swing {
         label2.setHorizontalAlignment(JLabel.CENTER);        
 
         /* Final de implementação na janela */
-        GridLayout tabela = new GridLayout(1, 2);
+        GridLayout tabela = new GridLayout(2, 1);
         form1.setLayout(tabela);
         form1.add(label1);
         form1.add(label2);
